@@ -19,7 +19,7 @@ RUN cp rebar /usr/local/bin/
 WORKDIR /tmp/erlang-build/
 RUN git clone https://github.com/elixir-lang/elixir.git
 WORKDIR /tmp/erlang-build/elixir
-RUN git checkout v0.12.5
+RUN git checkout v0.15.0
 RUN make install
 
 WORKDIR /
