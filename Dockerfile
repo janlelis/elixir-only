@@ -1,5 +1,5 @@
 # # #
-# sio-elixir: Base Dockerfile for Elixir applications
+# Base Dockerfile for Elixir applications
 # # #
 
 FROM ubuntu:trusty
@@ -8,8 +8,8 @@ ENV DEBIAN_FRONTEND noninteractive
 # Ensure Locale
 RUN apt-get -y update
 RUN dpkg-reconfigure locales && \
-     locale-gen en_US.UTF-8 && \
-     /usr/sbin/update-locale LANG=en_US.UTF-8
+      locale-gen en_US.UTF-8 && \
+      /usr/sbin/update-locale LANG=en_US.UTF-8
 ENV LC_ALL en_US.UTF-8
 
 # Packages
