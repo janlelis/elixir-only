@@ -1,7 +1,5 @@
-# sio-elixir
-
 # # #
-# Base Dockerfile for Elixir applications
+# sio-elixir: Base Dockerfile for Elixir applications
 # # #
 
 FROM ubuntu:trusty
