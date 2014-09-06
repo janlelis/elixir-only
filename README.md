@@ -1,16 +1,6 @@
-docker-elixir
----
+# janlelis/elixir-only
 
-A Dockerfile to build an elixir image.
+A docker base image that installs the latest Elixir(http://elixir-lang.org/) and Erlang(https://www.erlang-solutions.com/downloads/download-erlang-otp).
 
-Currently installs:
+Still tweaking around.
 
-* Erlang R16B03-1 
-* Elixir 0.12.5
-
-
-## Credit
-
-This is heavily based on the Dockerfile at commit 0db3338 of
-https://github.com/binarin/docker-elixir with some changes to get it to work
-for me.
