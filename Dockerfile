@@ -28,7 +28,7 @@ RUN apt-get -y install erlang
 # Build Elixir
 RUN git clone https://github.com/elixir-lang/elixir.git /tmp/elixir-source
 WORKDIR /tmp/elixir-source
-RUN git checkout v1.1.0
+RUN git checkout v1.1.1
 RUN make install
 
 # Clean Up
